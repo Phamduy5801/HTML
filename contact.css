@@ -1,0 +1,100 @@
+/*-------------------------
+    Contact Info Item
+-------------------------*/
+.contact-page-content-area .left-content-area {
+    text-align: left;
+}
+
+.contact-page-content-area .left-content-area .inner-title .title {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    
+}
+.contact-page-content-area .left-content-area .inner-title p{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.contact-info-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-info-list .single-info-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+
+.contact-info-list .single-info-item:hover .icon {
+    background-color: black;
+}
+
+.contact-info-list .single-info-item + .single-info-item {
+    margin-top: 20px;
+}
+
+.details{
+    font-size: 20px;
+}
+
+.contact-info-list .single-info-item .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: red;
+    font-size: 30px;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.contact-info-list .single-info-item .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.contact-info-list .single-info-item .content .details {
+    display: block;
+}
+.contact-page-form .form-group textarea {
+    max-height: 160px;
+    resize: none;
+    min-height: 200px;
+}
+
+.contact-page-form .form-group .form-control {
+    background-color: #f5f5f5;
+    border: none;
+    padding: 15px 30px;
+    margin-bottom: 25px;
+    height: 60px;
+}
+.submit-btn {
+    height: 50px;
+    width: auto;
+    border-radius: 5px;
+    font-weight: 400;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+    color: #fff;
+}
+.submit-btn:hover {
+    background-color: #fff;
+    color: red;
+    border: 1px solid red;
+}
